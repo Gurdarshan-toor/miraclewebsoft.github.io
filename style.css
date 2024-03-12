@@ -508,10 +508,13 @@ ul.moving_text li span::after {
   align-items: center;
   width: 100%;
 }
+.scroll_image_left {
+	width: 60%;
+}
 .scroll_image {
   background-image: url('otaa.png');
   background-size: 100%;
-  width: 800px;
+  /* width: 800px; */
   height: 400px;
   background-position: top;
   transition: 30s;
@@ -546,6 +549,7 @@ ul.moving_text li span::after {
 .scroll_content {
   text-align: right;
   transform: translate(-15%, 0%);
+  width: 40%;
 }
 .rowed_reserve {
   flex-direction: row-reverse;

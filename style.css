@@ -523,7 +523,7 @@ ul.moving_text li span::after {
 .scroll_image2 {
   background-image: url('nathan.png');
   background-size: 100%;
-  width: 800px;
+  /* width: 800px; */
   height: 400px;
   background-position: top;
   transition: 30s;
@@ -556,6 +556,7 @@ ul.moving_text li span::after {
 }
 .scroll_content2 {
   transform: translate(15%, 0%);
+  width: 40%;
 }
 .main_scroll_sec h2 {
   text-align: center;

@@ -379,11 +379,7 @@ ul.moving_text li span::after {
   font-size: 22px;
   padding: 20px;
 }
-@media screen and (max-width: 767px) {
-  .custom_overlay_inner_container_child {
-    flex-wrap: wrap;
-  }
-}
+
 @media screen and (max-width: 1200px) {
   .custom_overlay_inner_container {
     max-width: 95%;
@@ -504,6 +500,7 @@ ul.moving_text li span::after {
 
 .scroll_rowed {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -660,4 +657,87 @@ footer {
   color: #00B79F;
   text-decoration: none;
   font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  .custom_overlay_inner_container_child {
+    flex-wrap: wrap;
+  }
+  /* header */
+  .get_batn {
+    display: none;
+}
+.mw_navbar {
+  flex-direction: column;
+  padding: 10px 0;
+  height: 70px;
+}
+.menubar ul {
+  font-size: 14px;
+  gap: 10px;
+}
+/* hero section */
+.hero_rowed {
+  flex-direction: column;
+}
+.hero_sec {
+  height: auto;
+  padding: 20px 0px 10px 0px;
+}
+.left_content {
+  width: 100%;
+}
+.right_video {
+  display: none;
+}
+.dynamic_txt {
+  display: unset;
+}
+.left_content h1{
+  padding: 0;
+}
+ul.moving_text {
+  margin: 0;
+}
+.left_content p {
+  padding-top: 10px;
+}
+/* Logos slider */
+.logos {
+  padding: 20px 0;
+}
+/* services */
+.content_box {
+  width: 100%;
+}
+/* Portfolio */
+.scroll_image_left {
+  width: 100%;
+}
+.scroll_content {
+  transform: translate(0%, 0%);
+  width: 100%;
+}
+.scroll_content h4 {
+  display: none;
+}
+.scroll_content2 h4 {
+  display: none;
+}
+.scroll_content2 {
+  transform: translate(0%, 0%);
+  width: 100%;
+}
+.scroll_inner_para {
+  margin: 20px 0;
+}
+/* customer reviews */
+.overlap_rowed {
+  flex-direction: column;
+  gap: 0;
+}
+.overlap_content {
+  width: 100%;
+}
+
 }

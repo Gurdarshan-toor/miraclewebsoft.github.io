@@ -739,5 +739,29 @@ ul.moving_text {
 .overlap_content {
   width: 100%;
 }
-
+.overlap_sec{
+  display: none;
+}
+/* shopify certification */
+.certification_rowed {
+  flex-direction: column;
+  gap: 0;
+  padding: 20px;
+}
+.certification_content {
+  width: 100%;
+}
+.certification_image {
+  width: 100%;
+}
+.shopify_certification {
+  margin: 0;
+}
+/* footer */
+.ftr_rowed {
+  flex-direction: column;
+}
+.main_scroll_sec.page_wd.pb_60 {
+  padding-bottom: 0px;
+}
 }
